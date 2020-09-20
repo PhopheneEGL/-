@@ -1,0 +1,25 @@
+<view class="container">
+    <scroll-view class="topics" scroll-y>
+    <view class='shiren {{item.cls}}' bindtap="clickitem" data-s="{{item.text}}" wx:for="{{sortlist}}" wx:key="key" wx:item="item" id="{{item.id}}">{{item.text}}
+    </view>
+    </scroll-view>
+
+    <view class="cards">
+        <swiper indicator-dots="{{true}}">
+    <swiper-item class="card" wx:for="{{list}}" wx:key="index">
+      <view class="dailycard">
+        <image class="pic" src="{{item.imagePath}}"></image>
+      <view class="introduction">
+        <text>{{item.name}}</text>
+        <view class="paraphrase">
+        <text>{{item.paraphrase}}</text>
+        </view>
+      </view>
+      </view>
+    </swiper-item>
+  </swiper>
+    </view>
+</view>
+
+
+ 

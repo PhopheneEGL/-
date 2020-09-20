@@ -1,0 +1,37 @@
+page{
+  background-color:#f6f6f6;
+}
+.card{
+  
+  width: 550rpx;
+  height: 80vh;
+  background-color:#f6f6f6;
+}
+.dailycard{
+  margin: 0 auto;
+  margin-top: 100rpx;
+  width: 550rpx;
+  height: 80vh;
+  background-color: white;
+  border-radius: 25rpx;
+  box-shadow:5px 5px 5px #eeeeee;
+}
+.pic{
+  width: 450rpx;
+  height: 350rpx;
+  border-radius: 25rpx;
+  margin-top:100rpx;
+  margin-left: 50rpx;
+
+}
+.introduction{
+  font-size:35rpx;
+  text-align: center;
+  margin:50rpx;
+}
+.paraphrase{
+  margin-top: 50rpx;
+}
+swiper{
+  height: 1200rpx;
+}

@@ -1,0 +1,38 @@
+{
+
+  "pages": [
+    "pages/daily/daily",
+    "pages/topic/topic"  
+  ],
+
+  "tabBar":{
+    "color":"#999999",
+    "borderStyle":"white",
+    "list":[
+      {
+        "text": "每日推荐",
+        "pagePath":"pages/daily/daily",
+        "iconPath":"images/icons/DailyB.png",
+        "selectedIconPath": "images/icons/DailyBSelected.png"
+      },
+      {
+        "text": "专题",
+        "pagePath":"pages/topic/topic",
+        "iconPath":"images/icons/TopicB.png",
+        "selectedIconPath": "images/icons/TopicBSelected(1).png"
+      }
+    
+  ]
+    
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "哏儿通",
+    "navigationBarTextStyle": "black"
+  },
+  
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

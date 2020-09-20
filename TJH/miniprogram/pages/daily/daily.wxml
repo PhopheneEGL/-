@@ -1,0 +1,15 @@
+
+ <swiper indicator-dots="{{true}}">
+    <swiper-item class="card" wx:for="{{list}}" wx:key="index">
+      <view class="dailycard">
+        <image class="pic" src="{{item.imagePath}}"></image>
+        <view class="introduction">
+        <text>{{item.name}}</text>
+          <view class="paraphrase">
+          <text>{{item.paraphrase}}</text>
+          </view>
+        </view>              
+      </view>
+    </swiper-item>
+  </swiper>
+
